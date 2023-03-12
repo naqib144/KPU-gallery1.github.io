@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<!-- saved from url=(0135)file:///C:/Users/Raees/Desktop/w3schools%20Offline%20Version%202020/www.w3schools.com/howto/tryitdf29.html?filename=tryhow_js_slideshow -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body contenteditable="false">
+<h1 style="padding-left:580PX;background:	 #4dffdb;">Kabul Polytechnic University</h1>
+<h3 style="background:	 #ffdb4d;padding-left:500px;">Click > for next picture</h3>
+<div class="slideshow-container">
+
+<div class="mySlides fade" style="display: block;">
+  <div class="numbertext">1 / 3</div>
+  <img src="imaje/cc (104).jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">2 / 3</div>
+  <img src="imaje/cc (121).jpg" style="width:100%">
+  <div class="text">KPU</div>
+</div>
+
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">3 / 3</div>
+  <img src="imaje/zz2.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">4 / 4</div>
+  <img src="imaje/zz5.jpg" style="width:100%">
+  <div class="text">Caption four</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/zz6.jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (57).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+
+
+
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (58).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div><div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (59).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (60).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (61).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (62).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (142).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (63).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (144).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (64).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (65).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (141).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (66).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (67).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (68).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (69).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (70).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (71).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (72).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (73).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (74).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (50).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (49).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (48).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (47).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (46).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (45).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (44).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (43).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (42).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (41).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (40).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (39).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (38).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (37).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (36).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (35).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (34).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (33).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (32).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (31).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (30).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (29).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (28).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (27).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (26).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (25).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (24).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (23).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (22).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (21).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (20).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (19).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (18).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (17).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (16).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (15).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (14).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (13).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (12).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (11).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (10).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<div class="mySlides fade" style="display: none;">
+  <div class="numbertext">5 / 5</div>
+  <img src="imaje/cc (9).jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+
+
+
+
+<a class="prev" style="color:	#805500;background:#ff80ff;padding:20px 12px;"onclick="plusSlides(-1)">❮</a>
+<a class="next" style="color:	#805500;background:#ff80ff;padding:20px 12px;" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot active" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+
+      
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+ 
+</body><!-- Mirrored from www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 02:32:21 GMT --></html>
